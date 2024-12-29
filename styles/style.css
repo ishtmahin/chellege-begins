@@ -87,3 +87,54 @@ nav {
     text-align: center;
     padding: 20px;
 }
+
+/* Web deve related styles  */
+
+.web-dev {
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    max-width: 1140px;
+    margin: 75px auto;
+    padding: 80px 100px;
+}
+
+.section-title {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.section-desciption {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+/* web dev card related styles */
+
+.card-container {
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+    
+}
+
+.card-content {
+    width: 580px;
+}
+
+.card-img {
+   width: 260px;
+  
+}
