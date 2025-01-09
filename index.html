@@ -27,7 +27,7 @@
                 <p class="banner-description">I am working on in on it. Training regularly, though I started late
                     hopefully
                     finish it and learn the advanced staff in the field of web development</p>
-                <button class="btn-banner">Contact with me</button>
+                <button onclick="scrollToSection('contact')" class="btn-banner">Contact with me</button>
             </div>
         </section>
     </header>
@@ -161,11 +161,33 @@
                 </div>
             </div>
         </section>
+
+        <section class="support">
+            <h3 class="support-title">I Need Support </h3>
+            <p class="support-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+            <form action="">
+                <input type="text" name="text" id="" placeholder="Suggest me any feedback">
+                <input type="button" value="submit">
+            </form>
+        </section>
     </main>
 
-    <footer>
-
+    <footer id="contact">
+        <div class="footer-container">
+            <h3 class="footer-title">An open Commitment by MD Ishtiaque Hussain</h3>
+            <div class="social-icons">
+                <img src="images/facebook.png" alt="">
+                <img src="images/github.png" alt="">
+                <img src="images/linkedin-icon 1.png" alt="">
+            </div>
+        </div>
     </footer>
+
+    <script>
+        function scrollToSection(sectionId) {
+          document.getElementById(sectionId).scrollIntoView({ behavior: 'smooth' });
+        }
+      </script>
 
 </body>
 
